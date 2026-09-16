@@ -51,12 +51,3 @@ Se abre en `http://localhost:8501`.
 2. Entrá a [share.streamlit.io](https://share.streamlit.io) con tu cuenta de GitHub.
 3. "New app" → elegí el repo, la rama y `app.py` como archivo principal.
 4. Deploy. En unos minutos tenés una URL pública para mostrar en tu portfolio.
-
-## Ideas para seguir extendiendo (buenas para el portfolio)
-
-- Agregar detección automática de tipo de columna (fecha, id, texto libre) para adaptar el análisis.
-- Sumar modelos de regresión (no solo clasificación) cuando el target es numérico continuo.
-- Permitir ajustar hiperparámetros de los modelos desde la interfaz (ej. profundidad del árbol, cantidad de árboles).
-- Sumar un modo de comparación entre dos datasets.
-- Conectar directamente a una base de datos (Postgres/MySQL) además del archivo `.sql`/`.db`.
-- Guardar el mejor modelo entrenado (`joblib`) para reutilizarlo sin volver a entrenar.
