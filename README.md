@@ -35,9 +35,3 @@ Se abre en `http://localhost:8501`.
 3. "New app" → elegí el repo, la rama y `app.py` como archivo principal.
 4. Deploy. En unos minutos tenés una URL pública para mostrar en tu portfolio.
 
-## Ideas para extender (buenas para el portfolio)
-
-- Generar un reporte PDF descargable con los hallazgos del EDA.
-- Agregar detección automática de tipo de columna (fecha, id, texto libre) para adaptar el análisis.
-- Sumar un modo de comparación entre dos datasets.
-- Conectar directamente a una base de datos (Postgres/MySQL) además del archivo `.sql`/`.db`.
